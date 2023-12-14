@@ -1,0 +1,96 @@
+*{
+  box-sizing: border-box;
+}
+
+body,html{
+  margin: 0px;
+  padding: 0px;
+}
+
+.btn{
+  background: radial-gradient(darkorchid,black);
+  color: aquamarine;
+  padding: 4px 10px;
+  font-size: 13px;
+  border: 1px solid black;
+  border-radius: 15%;
+  display: flex;
+  justify-content: center;
+}
+.btn:hover{
+  background: transparent;
+  color:crimson;
+}
+.btn_click{
+  margin-left: 19rem;
+  margin-top: -1.5rem;
+}
+.input{
+    font-size: 15px;
+   border-radius: 10%;
+   margin-left: 100px;
+   border: 2px solid black;
+}
+.addul{
+  color: #fff;
+}
+.addul{
+  margin-left: -2rem;
+   list-style: none;
+ 
+}
+.addli{
+  background: radial-gradient(circle,darkorchid,black);
+  padding: 10px;
+  margin-bottom: 10px;
+ align-items: center;
+}
+.checkbox{
+   margin-left: 10px;
+   height: 1.4rem;
+   width: 1.4rem;
+  
+}
+.liitem{
+  margin-left: 10px;
+  font-size: 1.4rem;
+ 
+}
+.trashbutton{
+  position: absolute;
+  right: 10px;
+  font-size: 1.4rem;
+  color: aqua;
+  background-color: none;
+  background: none;
+  border: none;
+}
+.trashbutton:hover{
+      color: crimson;
+}
+
+    /* ***********media queries for medium devices ******** */
+@media screen and (max-width:1024px){
+  .trashbutton{
+    position: absolute;
+    right: 0;
+}
+}
+/* ***********media queries for small devices ******** */
+@media screen and (max-width:600px){
+   .heading{
+    font-size: 40px;
+   }
+   .input{
+    margin-left: 60px;
+   }
+   .btn_click{
+    margin-left: 16rem;
+   }
+   .trashbutton{
+          position: absolute;
+          right: 0;
+   }
+}
+
+    
